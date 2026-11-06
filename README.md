@@ -15,6 +15,11 @@ Keempat tugas memakai satu kasus dan satu dataset: memprediksi apakah pasien dia
 
 Isi dan tenggat Tugas 3 dan 4 mengikuti instruksi di Waskita. Tabel ini diperbarui saat tugasnya dikerjakan.
 
+## Buka di Google Colab
+
+- Tugas 1 (knowledge-based system): [![Buka di Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sihitam/aai-tugas1-4-readmisi-diabetes130/blob/main/notebooks/01_tugas1_kbs_readmisi_pytholog.ipynb)
+- Tugas 2 (praproses): [![Buka di Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sihitam/aai-tugas1-4-readmisi-diabetes130/blob/main/notebooks/02_tugas2_praproses_diabetes130.ipynb)
+
 ## Latar belakang kasus
 
 Data berasal dari database Health Facts (Cerner) dan mencakup kunjungan rawat inap pasien diabetes di 130 rumah sakit Amerika Serikat selama 10 tahun. Strack dkk. (2014) memakainya untuk menguji hubungan antara pemeriksaan HbA1c dan readmisi dini. Kriteria kunjungan yang masuk: rawat inap, diagnosis diabetes, lama rawat 1 sampai 14 hari, ada tes laboratorium, dan ada obat yang diberikan.
@@ -100,7 +105,7 @@ Asumsi yang perlu disebut:
 
 ## Cara menjalankan
 
-Di Google Colab: buka Colab, pilih File, Open notebook, tab GitHub, tempel URL repo ini, lalu pilih notebook yang ingin dijalankan. Jika `diabetic_data.csv` tidak ditemukan, notebook mencoba mengunduhnya dari UCI.
+Di Google Colab: klik badge "Buka di Colab" di atas (atau di bagian paling atas tiap notebook), lalu pilih Runtime, Run all. Di Colab folder `data` tidak ikut tersalin, jadi notebook mengunduh `diabetic_data.csv` dari repo ini, dan dari UCI bila unduhan itu gagal.
 
 Di komputer sendiri (Python 3.10 atau lebih baru):
 
