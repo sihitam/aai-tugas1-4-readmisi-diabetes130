@@ -1,0 +1,11 @@
+# hasil olahan notebook (besar, dibuat ulang dengan Run All)
+hasil_praproses/
+notebooks/hasil_praproses/
+data_uci/
+
+# umum
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+.DS_Store
+Thumbs.db
