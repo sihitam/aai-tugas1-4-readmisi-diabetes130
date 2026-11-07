@@ -80,7 +80,7 @@ Notebook ini membangun prototipe knowledge-based system untuk kasus readmisi: se
 | 6 | Bagi data latih dan uji (80/20, stratified, `random_state=42`). |
 | 7 | Outlier (batas persentil ke-99 dari data latih, lalu `log1p`), one-hot encoding, dan standardisasi. Semuanya dipelajari dari data latih saja. |
 | 8 | Seimbangkan kelas dengan oversampling acak, hanya pada data latih. Data uji tidak diubah. |
-| 9 | Analisis kepentingan fitur dengan Random Forest (data latih saja). Tidak ada fitur dibuang; hasilnya jadi bahan Tugas 3 dan 4. |
+| 9 | Analisis kepentingan fitur pada data latih: Random Forest (embedded), mutual information (filter), dan cek korelasi antar fitur numerik. Tidak ada fitur dibuang; hasilnya jadi bahan Tugas 3 dan 4. |
 | 10 | Tabel sebelum dan sesudah, ditambah pemeriksaan otomatis. |
 | 11 | Simpan hasil ke `hasil_praproses/` (tidak ikut repo). |
 
